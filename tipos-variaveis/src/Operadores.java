@@ -1,23 +1,21 @@
 public class Operadores {
     public static void main(String[] args) {
-        //String nomeCompleto = "LINGUAGEM" + "JAVA";
-        //System.out.println(nomeCompleto);
+     int numero1 = 1;
+     int numero2 = 2;
 
-        //qual o resultado das expressões abaixo?
+     boolean simNao = numero1 == numero2;
 
-        String concatenacao = "?";
-        
-        concatenacao = 1+"1"+1+1;
-        System.out.println(concatenacao);
+     if (numero1 == numero2) {
+        System.out.println("A nossa condição é verdadeira");
+     }
 
-        concatenacao = 1+"1"+1+1;
-        System.out.println(concatenacao);
+     System.out.println("numeroum é igual a numeroDois? " + simNao);
 
-        concatenacao = "1"+1+1+1;
-        System.out.println(concatenacao);
+     simNao = numero1 != numero2;
+     System.out.println("numeroum é diferente de numeroDois? " + simNao);
 
-        concatenacao = "1"+(1+1+1);
-        System.out.println(concatenacao);
+     simNao = numero1 > numero2;
+     System.out.println("numeroum é maior que numeroDois? " + simNao);
 
     }
 }
